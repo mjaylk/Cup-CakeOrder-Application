@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back5"
+    android:id="@+id/mainBackLogin"
+    android:gravity="center"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+
+            <EditText
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/username"
+                android:background="@drawable/search_background"
+                android:drawableLeft="@drawable/ic_round_mail_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:textColorHint="@color/black"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="40dp"/>
+
+
+
+
+            <EditText
+
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/password"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="8dp"
+                android:background="@drawable/search_background"
+                android:hint="Password"
+                android:padding="8dp"
+                android:textColorHint="@color/black"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
+
+
+            <TextView
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Forget password?"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/forgetPass"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/loginButton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/main"
+                android:src="@drawable/ic_round_arrow_forward_ios_24"
+                android:textSize="18sp"
+                android:visibility="visible" />
+
+            <com.github.clans.fab.FloatingActionButton
+
+                android:id="@+id/reset"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@color/main"
+                android:src="@drawable/ic_round_arrow_forward_ios_24"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Not yet registered? SignUp Now"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/signupText"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cartCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    android:background="#eee"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:background="#eee"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/cartImage"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uploadimg" />
+
+        <LinearLayout
+            android:id="@+id/detailSec"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/cartImage"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/cartItemTitle"
+                    android:layout_width="150dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Title"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cartPrice"
+                    android:layout_width="150dp"
+                    android:layout_height="18dp"
+                    android:layout_below="@+id/cartItemTitle"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="74dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Price"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cartItemCount"
+                    android:layout_width="150dp"
+                    android:layout_height="108dp"
+                    android:layout_below="@+id/cartPrice"
+                    android:layout_alignEnd="@+id/cartPrice"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="-7dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Items"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="29dp"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginBottom="27dp"
+                    android:id="@+id/cartDel"
+                    android:src="@drawable/ic_baseline_delete_24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/buyOneCart"
+            android:gravity="center"
+            android:layout_toEndOf="@+id/detailSec"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="#eee"
+            android:text="Buy"
+            android:textSize="20dp"
+            android:layout_height="match_parent"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

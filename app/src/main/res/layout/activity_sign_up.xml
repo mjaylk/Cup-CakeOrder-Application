@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back4"
+    android:id="@+id/mainBackLogin"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="24dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/usernameSign"
+            android:background="@drawable/search_background"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:textColorHint="@color/black"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:layout_marginTop="40dp"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/phoneNumber"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="8dp"
+            android:hint="Phone"
+            android:padding="8dp"
+            android:background="@drawable/search_background"
+            android:textColorHint="@color/black"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/email"
+            android:background="@drawable/search_background"
+            android:drawableLeft="@drawable/ic_round_mail_24"
+            android:drawablePadding="8dp"
+            android:hint="Email"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black"
+            android:textColor="#000000"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/passwordSign"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:background="@drawable/search_background"
+            android:hint="Password"
+            android:padding="8dp"
+            android:textColorHint="@color/black"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:layout_marginTop="20dp"/>
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/signinButton"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/main"
+            android:src="@drawable/ic_round_arrow_forward_ios_24"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Alread Have an Account? LogIn Now"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:id="@+id/LogText"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</LinearLayout>

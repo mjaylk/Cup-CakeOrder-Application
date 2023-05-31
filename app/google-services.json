@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "53107996722",
+    "firebase_url": "https://art-one-hd-default-rtdb.firebaseio.com",
+    "project_id": "art-one-hd",
+    "storage_bucket": "art-one-hd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53107996722:android:11ba415adcab5616d0642b",
+        "android_client_info": {
+          "package_name": "com.blackcode.cfadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4duX5wf8hwTpm9TooQQXbaDwFLxEK5cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53107996722:android:d6e87e9cabf1df34d0642b",
+        "android_client_info": {
+          "package_name": "com.blackcode.cupcakefactory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4duX5wf8hwTpm9TooQQXbaDwFLxEK5cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53107996722:android:d0d088af572db509d0642b",
+        "android_client_info": {
+          "package_name": "com.example.mytv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53107996722-5va5qjone7cut02jboseaooha0fed5qf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mytv",
+            "certificate_hash": "ca212c2dc19efdc95f2ed76455f7c1f24704a7de"
+          }
+        },
+        {
+          "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4duX5wf8hwTpm9TooQQXbaDwFLxEK5cY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53107996722-ch5iv7slo6q1a8iev1oorokio7nkjf77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
